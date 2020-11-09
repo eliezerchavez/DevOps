@@ -1,0 +1,7 @@
+CREATE USER sonar WITH PASSWORD 'sonar';
+CREATE DATABASE sonar;
+GRANT ALL PRIVILEGES ON DATABASE sonar TO sonar;
+
+CREATE USER artifactory WITH PASSWORD 'artifactory';
+CREATE DATABASE artifactory;
+GRANT ALL PRIVILEGES ON DATABASE artifactory TO artifactory;
